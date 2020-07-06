@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="21.409392">
+    <testcase classname="Free CRM Login Validation" name="Valid Login Validation" time="21.409392">
+        <failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#13;&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#13;&#10;&#9;at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)&#13;&#10;&#9;at com.crm.qa.pages.LoginPage.loginValidation(LoginPage.java:42)&#13;&#10;&#9;at stepDefinition.Login_stepDef.enter_valid_username_and_password(Login_stepDef.java:40)&#13;&#10;&#9;at ✽.Then enter valid username and password(C:/Users/user/Desktop/Training/POMCucumber/src/main/java/features/login.feature:8)&#13;&#10;"><![CDATA[Given user enter the Valid URL..............................................passed
+Then Check the no of links available on webpage.............................passed
+Then Check the no of text available on webpage..............................passed
+Then enter valid username and password......................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.sendKeys(Unknown Source)
+	at com.crm.qa.pages.LoginPage.loginValidation(LoginPage.java:42)
+	at stepDefinition.Login_stepDef.enter_valid_username_and_password(Login_stepDef.java:40)
+	at ✽.Then enter valid username and password(C:/Users/user/Desktop/Training/POMCucumber/src/main/java/features/login.feature:8)
+]]></failure>
+    </testcase>
+</testsuite>

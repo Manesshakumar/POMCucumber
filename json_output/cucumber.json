@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Valid Login Validation",
+        "description": "",
+        "id": "free-crm-login-validation;valid-login-validation",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21237050986,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the Valid URL",
+            "match": {
+              "location": "Login_stepDef.user_enter_the_Valid_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87463616,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Check the no of links available on webpage",
+            "match": {
+              "location": "Login_stepDef.check_the_no_of_links_available_on_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 81068728,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Check the no of text available on webpage",
+            "match": {
+              "location": "Login_stepDef.check_the_no_of_text_available_on_webpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3809040,
+              "error_message": "java.lang.NullPointerException\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy17.sendKeys(Unknown Source)\r\n\tat com.crm.qa.pages.LoginPage.loginValidation(LoginPage.java:42)\r\n\tat stepDefinition.Login_stepDef.enter_valid_username_and_password(Login_stepDef.java:40)\r\n\tat ✽.Then enter valid username and password(C:/Users/user/Desktop/Training/POMCucumber/src/main/java/features/login.feature:8)\r\n",
+              "status": "failed"
+            },
+            "line": 8,
+            "name": "enter valid username and password",
+            "match": {
+              "location": "Login_stepDef.enter_valid_username_and_password()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM Login Validation",
+    "description": "",
+    "id": "free-crm-login-validation",
+    "keyword": "Feature",
+    "uri": "C:/Users/user/Desktop/Training/POMCucumber/src/main/java/features/login.feature"
+  }
+]
